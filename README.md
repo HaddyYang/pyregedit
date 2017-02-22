@@ -3,6 +3,7 @@ pyregedit
 
  - 该项目用于操作注册表，读写注册表的键和值
  - 兼容windows 64位和32位
+ - 代码在python2.7开发和测试，应该兼容python3。欢迎下载并测试
  - 博客地址：http://yshblog.com/blog/132
 
 使用方法：
@@ -11,6 +12,7 @@ pyregedit
  2. 把pyregedit加入你的项目中
  3. 代码示例
     ```
+    #coding:utf-8
     import pyregedit
 
     root = pyregedit.HKEY_LOCAL_MACHINE
