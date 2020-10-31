@@ -11,7 +11,7 @@ pyregedit
  1. 需要安装pywin32： pip install pywin32
  2. 把pyregedit加入你的项目中
  3. 代码示例
-    ```
+    ```python
     #coding:utf-8
     import pyregedit
 
@@ -49,5 +49,5 @@ pyregedit
     reg.delete_sub_key('sub_test')
 
     #删除当前键
-    reg.delete_curretn_key()
+    reg.delete_current_key()
     ```
