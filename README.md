@@ -3,14 +3,20 @@ pyregedit
 
  - 该项目用于操作注册表，读写注册表的键和值
  - 兼容windows 64位和32位
- - 代码在python2.7开发和测试，应该兼容python3。欢迎下载并测试
+ - 代码在python2.7开发和测试，兼容python3。欢迎下载并测试
  - 博客地址：http://yshblog.com/blog/132
 
 使用方法：
 -----
- 1. 需要安装pywin32： pip install pywin32
- 2. 把pyregedit加入你的项目中
- 3. 代码示例
+pip安装：
+`pip install pyregedit`
+
+手动安装：
+`1. 需要安装pywin32： pip install pywin32
+2. 把pyregedit加入你的项目中`
+ 
+代码示例
+-----
     ```python
     #coding:utf-8
     import pyregedit
@@ -51,3 +57,7 @@ pyregedit
     #删除当前键
     reg.delete_current_key()
     ```
+
+贡献者
+-----
+感谢hrpzcf的贡献！

@@ -39,6 +39,6 @@ __all__ = [
 ]
 
 NAME = "pyregedit"
-VERSION = "0.0.1"
+VERSION = "1.0.0"
 AUTHOR = "Haddy Yang (杨仕航)"
 WEBSITE = "https://github.com/HaddyYang/pyregedit"
